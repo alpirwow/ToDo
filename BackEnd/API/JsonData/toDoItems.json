@@ -1,0 +1,110 @@
+[
+  {
+    "Id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "Title": "Buy groceries",
+    "Description": "Milk, Bread, Cheese",
+    "IsCompleted": false,
+    "DueDate": "2024-07-20",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "e290f1ee-6c54-4b01-90e6-d701748f0852",
+    "Title": "Finish project report",
+    "Description": "Complete the final draft",
+    "IsCompleted": false,
+    "DueDate": "2024-07-25",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  },
+  {
+    "Id": "2d106f6a-51db-468a-b2da-5f4f061b2ff3",
+    "Title": "Read a book",
+    "Description": "Finish reading 'The Great Gatsby'",
+    "IsCompleted": false,
+    "DueDate": "2024-07-30",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "d296df76-1884-46c5-981d-096f13ecb852",
+    "Title": "Workout",
+    "Description": "Go for a run in the park",
+    "IsCompleted": false,
+    "DueDate": "2024-07-28",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  },
+  {
+    "Id": "b87d434f-7219-4fff-8328-2067dfd769f1",
+    "Title": "Call mom",
+    "Description": "Catch up with mom over the phone",
+    "IsCompleted": false,
+    "DueDate": "2024-07-26",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "5d35fd46-17cc-4070-86ec-8e7b8f2063cc",
+    "Title": "Plan vacation",
+    "Description": "Research destinations for summer vacation",
+    "IsCompleted": false,
+    "DueDate": "2024-08-01",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  },
+  {
+    "Id": "7e24e05b-3f70-4532-81bd-e168c61c0d0f",
+    "Title": "Grocery shopping",
+    "Description": "Buy vegetables and fruits",
+    "IsCompleted": false,
+    "DueDate": "2024-07-24",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "1c4d250d-a6a6-485d-a8b4-0d65f3d7a832",
+    "Title": "Team meeting",
+    "Description": "Discuss project updates with the team",
+    "IsCompleted": false,
+    "DueDate": "2024-07-27",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  },
+  {
+    "Id": "fcf7ef0d-ccfb-45b7-8034-1f391ab1568a",
+    "Title": "Doctor appointment",
+    "Description": "Annual health check-up",
+    "IsCompleted": false,
+    "DueDate": "2024-07-29",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "eda29bff-4d95-4fa0-90aa-92e69192baa0",
+    "Title": "Clean house",
+    "Description": "General cleaning of the house",
+    "IsCompleted": false,
+    "DueDate": "2024-07-31",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  },
+  {
+    "Id": "be100857-374a-4896-85e7-5115ce27931d",
+    "Title": "Pay bills",
+    "Description": "Pay electricity and water bills",
+    "IsCompleted": false,
+    "DueDate": "2024-07-23",
+    "PriorityLevel": 1,
+    "UserId": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+  },
+  {
+    "Id": "bc5145ec-8289-4aaf-bd32-f1755cad812b",
+    "Title": "Prepare presentation",
+    "Description": "Create slides for the upcoming meeting",
+    "IsCompleted": false,
+    "DueDate": "2024-07-22",
+    "PriorityLevel": 2,
+    "UserId": "e290f1ee-6c54-4b01-90e6-d701748f0852"
+  }
+]

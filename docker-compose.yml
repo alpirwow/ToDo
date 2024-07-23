@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    container_name: todo_db 
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: to_do_db
+    ports:
+      - "5122:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./BackEnd
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+    container_name: todo_backend
+    image: todo_backend:latest
+    ports:
+      - "5123:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - ~/.nuget/packages:/root/.nuget/packages:ro
+      - ~/.dotnet/sdk/NuGetFallbackFolder:/root/.dotnet/sdk/NuGetFallbackFolder:ro
+    depends_on:
+      - db
+
+  frontend:
+    container_name: frontend_todo
+    image: todo_frontend:latest
+    build:
+      context: ./FrontEnd
+      dockerfile: Dockerfile
+    ports:
+      - '5125:5173'
+    depends_on:
+      - backend
+volumes:
+  postgres_data:
